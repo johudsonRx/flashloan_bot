@@ -5,19 +5,16 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "spreadPremium",
           "type": "tuple"
         }
@@ -32,7 +29,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "address",
           "name": "operator",
           "type": "address"
         }
@@ -40,7 +36,6 @@
       "name": "getIsGlobalOperator",
       "outputs": [
         {
-          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -53,7 +48,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -61,7 +55,6 @@
       "name": "getMarketTokenAddress",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -74,12 +67,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
-          "internalType": "address",
           "name": "interestSetter",
           "type": "address"
         }
@@ -96,17 +87,14 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         }
@@ -116,24 +104,20 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "",
           "type": "tuple"
         }
@@ -146,7 +130,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -154,7 +137,6 @@
       "name": "getMarketPriceOracle",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -167,7 +149,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -175,7 +156,6 @@
       "name": "getMarketInterestSetter",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -188,7 +168,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -198,12 +177,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -218,7 +195,6 @@
       "name": "getNumMarkets",
       "outputs": [
         {
-          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -231,12 +207,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "address",
           "name": "token",
           "type": "address"
         },
         {
-          "internalType": "address",
           "name": "recipient",
           "type": "address"
         }
@@ -244,7 +218,6 @@
       "name": "ownerWithdrawUnsupportedTokens",
       "outputs": [
         {
-          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -259,12 +232,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "minBorrowedValue",
           "type": "tuple"
         }
@@ -281,12 +252,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "spread",
           "type": "tuple"
         }
@@ -303,12 +272,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "earningsRate",
           "type": "tuple"
         }
@@ -323,12 +290,10 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "address",
           "name": "owner",
           "type": "address"
         },
         {
-          "internalType": "address",
           "name": "operator",
           "type": "address"
         }
@@ -336,7 +301,6 @@
       "name": "getIsLocalOperator",
       "outputs": [
         {
-          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -351,22 +315,18 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         },
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -376,17 +336,14 @@
         {
           "components": [
             {
-              "internalType": "bool",
               "name": "sign",
               "type": "bool"
             },
             {
-              "internalType": "uint128",
               "name": "value",
               "type": "uint128"
             }
           ],
-          "internalType": "struct Types.Par",
           "name": "",
           "type": "tuple"
         }
@@ -399,19 +356,16 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "marginPremium",
           "type": "tuple"
         }
@@ -430,12 +384,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -448,7 +400,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -458,22 +409,18 @@
         {
           "components": [
             {
-              "internalType": "uint96",
               "name": "borrow",
               "type": "uint96"
             },
             {
-              "internalType": "uint96",
               "name": "supply",
               "type": "uint96"
             },
             {
-              "internalType": "uint32",
               "name": "lastUpdate",
               "type": "uint32"
             }
           ],
-          "internalType": "struct Interest.Index",
           "name": "",
           "type": "tuple"
         }
@@ -486,7 +433,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -494,7 +440,6 @@
       "name": "getMarketIsClosing",
       "outputs": [
         {
-          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -513,53 +458,44 @@
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "marginRatio",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "liquidationSpread",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "earningsRate",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Monetary.Value",
               "name": "minBorrowedValue",
               "type": "tuple"
             }
           ],
-          "internalType": "struct Storage.RiskParams",
           "name": "",
           "type": "tuple"
         }
@@ -574,17 +510,14 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         }
@@ -592,41 +525,34 @@
       "name": "getAccountBalances",
       "outputs": [
         {
-          "internalType": "address[]",
           "name": "",
           "type": "address[]"
         },
         {
           "components": [
             {
-              "internalType": "bool",
               "name": "sign",
               "type": "bool"
             },
             {
-              "internalType": "uint128",
               "name": "value",
               "type": "uint128"
             }
           ],
-          "internalType": "struct Types.Par[]",
           "name": "",
           "type": "tuple[]"
         },
         {
           "components": [
             {
-              "internalType": "bool",
               "name": "sign",
               "type": "bool"
             },
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Types.Wei[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -652,12 +578,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "",
           "type": "tuple"
         }
@@ -672,17 +596,14 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "operator",
               "type": "address"
             },
             {
-              "internalType": "bool",
               "name": "trusted",
               "type": "bool"
             }
           ],
-          "internalType": "struct ISoloMargin.OperatorArg[]",
           "name": "args",
           "type": "tuple[]"
         }
@@ -697,7 +618,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -705,7 +625,6 @@
       "name": "getMarketPrice",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -720,7 +639,6 @@
       "name": "owner",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -735,7 +653,6 @@
       "name": "isOwner",
       "outputs": [
         {
-          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -748,12 +665,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
-          "internalType": "address",
           "name": "recipient",
           "type": "address"
         }
@@ -761,7 +676,6 @@
       "name": "ownerWithdrawExcessTokens",
       "outputs": [
         {
-          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -774,41 +688,34 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "address",
           "name": "token",
           "type": "address"
         },
         {
-          "internalType": "address",
           "name": "priceOracle",
           "type": "address"
         },
         {
-          "internalType": "address",
           "name": "interestSetter",
           "type": "address"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "marginPremium",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "spreadPremium",
           "type": "tuple"
         }
@@ -825,86 +732,70 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info[]",
           "name": "accounts",
           "type": "tuple[]"
         },
         {
           "components": [
             {
-              "internalType": "enum Actions.ActionType",
               "name": "actionType",
               "type": "uint8"
             },
             {
-              "internalType": "uint256",
               "name": "accountId",
               "type": "uint256"
             },
             {
               "components": [
                 {
-                  "internalType": "bool",
                   "name": "sign",
                   "type": "bool"
                 },
                 {
-                  "internalType": "enum Types.AssetDenomination",
                   "name": "denomination",
                   "type": "uint8"
                 },
                 {
-                  "internalType": "enum Types.AssetReference",
                   "name": "ref",
                   "type": "uint8"
                 },
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Types.AssetAmount",
               "name": "amount",
               "type": "tuple"
             },
             {
-              "internalType": "uint256",
               "name": "primaryMarketId",
               "type": "uint256"
             },
             {
-              "internalType": "uint256",
               "name": "secondaryMarketId",
               "type": "uint256"
             },
             {
-              "internalType": "address",
               "name": "otherAddress",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "otherAccountId",
               "type": "uint256"
             },
             {
-              "internalType": "bytes",
               "name": "data",
               "type": "bytes"
             }
           ],
-          "internalType": "struct Actions.ActionArgs[]",
           "name": "actions",
           "type": "tuple[]"
         }
@@ -919,7 +810,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -929,136 +819,112 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "token",
               "type": "address"
             },
             {
               "components": [
                 {
-                  "internalType": "uint128",
                   "name": "borrow",
                   "type": "uint128"
                 },
                 {
-                  "internalType": "uint128",
                   "name": "supply",
                   "type": "uint128"
                 }
               ],
-              "internalType": "struct Types.TotalPar",
               "name": "totalPar",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint96",
                   "name": "borrow",
                   "type": "uint96"
                 },
                 {
-                  "internalType": "uint96",
                   "name": "supply",
                   "type": "uint96"
                 },
                 {
-                  "internalType": "uint32",
                   "name": "lastUpdate",
                   "type": "uint32"
                 }
               ],
-              "internalType": "struct Interest.Index",
               "name": "index",
               "type": "tuple"
             },
             {
-              "internalType": "address",
               "name": "priceOracle",
               "type": "address"
             },
             {
-              "internalType": "address",
               "name": "interestSetter",
               "type": "address"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "marginPremium",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "spreadPremium",
               "type": "tuple"
             },
             {
-              "internalType": "bool",
               "name": "isClosing",
               "type": "bool"
             }
           ],
-          "internalType": "struct Storage.Market",
           "name": "",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint96",
               "name": "borrow",
               "type": "uint96"
             },
             {
-              "internalType": "uint96",
               "name": "supply",
               "type": "uint96"
             },
             {
-              "internalType": "uint32",
               "name": "lastUpdate",
               "type": "uint32"
             }
           ],
-          "internalType": "struct Interest.Index",
           "name": "",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Price",
           "name": "",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Interest.Rate",
           "name": "",
           "type": "tuple"
         }
@@ -1073,12 +939,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "ratio",
           "type": "tuple"
         }
@@ -1097,12 +961,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -1117,22 +979,18 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         },
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1142,17 +1000,14 @@
         {
           "components": [
             {
-              "internalType": "bool",
               "name": "sign",
               "type": "bool"
             },
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Types.Wei",
           "name": "",
           "type": "tuple"
         }
@@ -1165,7 +1020,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1175,17 +1029,14 @@
         {
           "components": [
             {
-              "internalType": "uint128",
               "name": "borrow",
               "type": "uint128"
             },
             {
-              "internalType": "uint128",
               "name": "supply",
               "type": "uint128"
             }
           ],
-          "internalType": "struct Types.TotalPar",
           "name": "",
           "type": "tuple"
         }
@@ -1198,12 +1049,10 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "heldMarketId",
           "type": "uint256"
         },
         {
-          "internalType": "uint256",
           "name": "owedMarketId",
           "type": "uint256"
         }
@@ -1213,12 +1062,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -1231,7 +1078,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1241,17 +1087,14 @@
         {
           "components": [
             {
-              "internalType": "bool",
               "name": "sign",
               "type": "bool"
             },
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Types.Wei",
           "name": "",
           "type": "tuple"
         }
@@ -1264,7 +1107,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1274,22 +1116,18 @@
         {
           "components": [
             {
-              "internalType": "uint96",
               "name": "borrow",
               "type": "uint96"
             },
             {
-              "internalType": "uint96",
               "name": "supply",
               "type": "uint96"
             },
             {
-              "internalType": "uint32",
               "name": "lastUpdate",
               "type": "uint32"
             }
           ],
-          "internalType": "struct Interest.Index",
           "name": "",
           "type": "tuple"
         }
@@ -1304,17 +1142,14 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         }
@@ -1322,7 +1157,6 @@
       "name": "getAccountStatus",
       "outputs": [
         {
-          "internalType": "uint8",
           "name": "",
           "type": "uint8"
         }
@@ -1339,12 +1173,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -1357,12 +1189,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
-          "internalType": "address",
           "name": "priceOracle",
           "type": "address"
         }
@@ -1381,37 +1211,30 @@
         {
           "components": [
             {
-              "internalType": "uint64",
               "name": "marginRatioMax",
               "type": "uint64"
             },
             {
-              "internalType": "uint64",
               "name": "liquidationSpreadMax",
               "type": "uint64"
             },
             {
-              "internalType": "uint64",
               "name": "earningsRateMax",
               "type": "uint64"
             },
             {
-              "internalType": "uint64",
               "name": "marginPremiumMax",
               "type": "uint64"
             },
             {
-              "internalType": "uint64",
               "name": "spreadPremiumMax",
               "type": "uint64"
             },
             {
-              "internalType": "uint128",
               "name": "minBorrowedValueMax",
               "type": "uint128"
             }
           ],
-          "internalType": "struct Storage.RiskLimits",
           "name": "",
           "type": "tuple"
         }
@@ -1424,7 +1247,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1434,90 +1256,74 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "token",
               "type": "address"
             },
             {
               "components": [
                 {
-                  "internalType": "uint128",
                   "name": "borrow",
                   "type": "uint128"
                 },
                 {
-                  "internalType": "uint128",
                   "name": "supply",
                   "type": "uint128"
                 }
               ],
-              "internalType": "struct Types.TotalPar",
               "name": "totalPar",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint96",
                   "name": "borrow",
                   "type": "uint96"
                 },
                 {
-                  "internalType": "uint96",
                   "name": "supply",
                   "type": "uint96"
                 },
                 {
-                  "internalType": "uint32",
                   "name": "lastUpdate",
                   "type": "uint32"
                 }
               ],
-              "internalType": "struct Interest.Index",
               "name": "index",
               "type": "tuple"
             },
             {
-              "internalType": "address",
               "name": "priceOracle",
               "type": "address"
             },
             {
-              "internalType": "address",
               "name": "interestSetter",
               "type": "address"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "marginPremium",
               "type": "tuple"
             },
             {
               "components": [
                 {
-                  "internalType": "uint256",
                   "name": "value",
                   "type": "uint256"
                 }
               ],
-              "internalType": "struct Decimal.D256",
               "name": "spreadPremium",
               "type": "tuple"
             },
             {
-              "internalType": "bool",
               "name": "isClosing",
               "type": "bool"
             }
           ],
-          "internalType": "struct Storage.Market",
           "name": "",
           "type": "tuple"
         }
@@ -1530,12 +1336,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         },
         {
-          "internalType": "bool",
           "name": "isClosing",
           "type": "bool"
         }
@@ -1550,12 +1354,10 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "address",
           "name": "operator",
           "type": "address"
         },
         {
-          "internalType": "bool",
           "name": "approved",
           "type": "bool"
         }
@@ -1570,7 +1372,6 @@
       "constant": false,
       "inputs": [
         {
-          "internalType": "address",
           "name": "newOwner",
           "type": "address"
         }
@@ -1587,17 +1388,14 @@
         {
           "components": [
             {
-              "internalType": "address",
               "name": "owner",
               "type": "address"
             },
             {
-              "internalType": "uint256",
               "name": "number",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Account.Info",
           "name": "account",
           "type": "tuple"
         }
@@ -1607,24 +1405,20 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "",
           "type": "tuple"
         },
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Monetary.Value",
           "name": "",
           "type": "tuple"
         }
@@ -1637,7 +1431,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1647,12 +1440,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Decimal.D256",
           "name": "",
           "type": "tuple"
         }
@@ -1665,7 +1456,6 @@
       "constant": true,
       "inputs": [
         {
-          "internalType": "uint256",
           "name": "marketId",
           "type": "uint256"
         }
@@ -1675,12 +1465,10 @@
         {
           "components": [
             {
-              "internalType": "uint256",
               "name": "value",
               "type": "uint256"
             }
           ],
-          "internalType": "struct Interest.Rate",
           "name": "",
           "type": "tuple"
         }
@@ -1690,7 +1478,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountBalances\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"\",\"type\":\"address[]\"},{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"uint128\",\"name\":\"value\",\"type\":\"uint128\"}],\"internalType\":\"struct Types.Par[]\",\"name\":\"\",\"type\":\"tuple[]\"},{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Types.Wei[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"},{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getAccountPar\",\"outputs\":[{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"uint128\",\"name\":\"value\",\"type\":\"uint128\"}],\"internalType\":\"struct Types.Par\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountStatus\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountValues\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"},{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getAccountWei\",\"outputs\":[{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Types.Wei\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info\",\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAdjustedAccountValues\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getEarningsRate\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"getIsGlobalOperator\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"getIsLocalOperator\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getLiquidationSpread\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"heldMarketId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"owedMarketId\",\"type\":\"uint256\"}],\"name\":\"getLiquidationSpreadForPair\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getMarginRatio\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarket\",\"outputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"uint128\",\"name\":\"borrow\",\"type\":\"uint128\"},{\"internalType\":\"uint128\",\"name\":\"supply\",\"type\":\"uint128\"}],\"internalType\":\"struct Types.TotalPar\",\"name\":\"totalPar\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint96\",\"name\":\"borrow\",\"type\":\"uint96\"},{\"internalType\":\"uint96\",\"name\":\"supply\",\"type\":\"uint96\"},{\"internalType\":\"uint32\",\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"internalType\":\"struct Interest.Index\",\"name\":\"index\",\"type\":\"tuple\"},{\"internalType\":\"address\",\"name\":\"priceOracle\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"spreadPremium\",\"type\":\"tuple\"},{\"internalType\":\"bool\",\"name\":\"isClosing\",\"type\":\"bool\"}],\"internalType\":\"struct Storage.Market\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketCachedIndex\",\"outputs\":[{\"components\":[{\"internalType\":\"uint96\",\"name\":\"borrow\",\"type\":\"uint96\"},{\"internalType\":\"uint96\",\"name\":\"supply\",\"type\":\"uint96\"},{\"internalType\":\"uint32\",\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"internalType\":\"struct Interest.Index\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketCurrentIndex\",\"outputs\":[{\"components\":[{\"internalType\":\"uint96\",\"name\":\"borrow\",\"type\":\"uint96\"},{\"internalType\":\"uint96\",\"name\":\"supply\",\"type\":\"uint96\"},{\"internalType\":\"uint32\",\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"internalType\":\"struct Interest.Index\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketInterestRate\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Interest.Rate\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketInterestSetter\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketIsClosing\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketMarginPremium\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketPrice\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketPriceOracle\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketSpreadPremium\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketTokenAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketTotalPar\",\"outputs\":[{\"components\":[{\"internalType\":\"uint128\",\"name\":\"borrow\",\"type\":\"uint128\"},{\"internalType\":\"uint128\",\"name\":\"supply\",\"type\":\"uint128\"}],\"internalType\":\"struct Types.TotalPar\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketWithInfo\",\"outputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"uint128\",\"name\":\"borrow\",\"type\":\"uint128\"},{\"internalType\":\"uint128\",\"name\":\"supply\",\"type\":\"uint128\"}],\"internalType\":\"struct Types.TotalPar\",\"name\":\"totalPar\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint96\",\"name\":\"borrow\",\"type\":\"uint96\"},{\"internalType\":\"uint96\",\"name\":\"supply\",\"type\":\"uint96\"},{\"internalType\":\"uint32\",\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"internalType\":\"struct Interest.Index\",\"name\":\"index\",\"type\":\"tuple\"},{\"internalType\":\"address\",\"name\":\"priceOracle\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"spreadPremium\",\"type\":\"tuple\"},{\"internalType\":\"bool\",\"name\":\"isClosing\",\"type\":\"bool\"}],\"internalType\":\"struct Storage.Market\",\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint96\",\"name\":\"borrow\",\"type\":\"uint96\"},{\"internalType\":\"uint96\",\"name\":\"supply\",\"type\":\"uint96\"},{\"internalType\":\"uint32\",\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"internalType\":\"struct Interest.Index\",\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Price\",\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Interest.Rate\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getMinBorrowedValue\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getNumExcessTokens\",\"outputs\":[{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Types.Wei\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getNumMarkets\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRiskLimits\",\"outputs\":[{\"components\":[{\"internalType\":\"uint64\",\"name\":\"marginRatioMax\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"liquidationSpreadMax\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"earningsRateMax\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"marginPremiumMax\",\"type\":\"uint64\"},{\"internalType\":\"uint64\",\"name\":\"spreadPremiumMax\",\"type\":\"uint64\"},{\"internalType\":\"uint128\",\"name\":\"minBorrowedValueMax\",\"type\":\"uint128\"}],\"internalType\":\"struct Storage.RiskLimits\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRiskParams\",\"outputs\":[{\"components\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"marginRatio\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"liquidationSpread\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"earningsRate\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"minBorrowedValue\",\"type\":\"tuple\"}],\"internalType\":\"struct Storage.RiskParams\",\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"internalType\":\"struct Account.Info[]\",\"name\":\"accounts\",\"type\":\"tuple[]\"},{\"components\":[{\"internalType\":\"enum Actions.ActionType\",\"name\":\"actionType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"accountId\",\"type\":\"uint256\"},{\"components\":[{\"internalType\":\"bool\",\"name\":\"sign\",\"type\":\"bool\"},{\"internalType\":\"enum Types.AssetDenomination\",\"name\":\"denomination\",\"type\":\"uint8\"},{\"internalType\":\"enum Types.AssetReference\",\"name\":\"ref\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Types.AssetAmount\",\"name\":\"amount\",\"type\":\"tuple\"},{\"internalType\":\"uint256\",\"name\":\"primaryMarketId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"secondaryMarketId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"otherAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"otherAccountId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"internalType\":\"struct Actions.ActionArgs[]\",\"name\":\"actions\",\"type\":\"tuple[]\"}],\"name\":\"operate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"priceOracle\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"spreadPremium\",\"type\":\"tuple\"}],\"name\":\"ownerAddMarket\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"earningsRate\",\"type\":\"tuple\"}],\"name\":\"ownerSetEarningsRate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ownerSetGlobalOperator\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"interestSetter\",\"type\":\"address\"}],\"name\":\"ownerSetInterestSetter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"isClosing\",\"type\":\"bool\"}],\"name\":\"ownerSetIsClosing\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"spread\",\"type\":\"tuple\"}],\"name\":\"ownerSetLiquidationSpread\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"marginPremium\",\"type\":\"tuple\"}],\"name\":\"ownerSetMarginPremium\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"ratio\",\"type\":\"tuple\"}],\"name\":\"ownerSetMarginRatio\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Monetary.Value\",\"name\":\"minBorrowedValue\",\"type\":\"tuple\"}],\"name\":\"ownerSetMinBorrowedValue\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"priceOracle\",\"type\":\"address\"}],\"name\":\"ownerSetPriceOracle\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"internalType\":\"struct Decimal.D256\",\"name\":\"spreadPremium\",\"type\":\"tuple\"}],\"name\":\"ownerSetSpreadPremium\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"marketId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"}],\"name\":\"ownerWithdrawExcessTokens\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"}],\"name\":\"ownerWithdrawUnsupportedTokens\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"trusted\",\"type\":\"bool\"}],\"internalType\":\"struct ISoloMargin.OperatorArg[]\",\"name\":\"args\",\"type\":\"tuple[]\"}],\"name\":\"setOperators\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@studydefi/money-legos/dydx/contracts/ISoloMargin.sol\":\"ISoloMargin\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@studydefi/money-legos/dydx/contracts/ISoloMargin.sol\":{\"keccak256\":\"0xfcc0cd7be9dded596cd0d13873bd360743d823ec5e2a204992bd866385b8a6bf\",\"urls\":[\"bzz-raw://99143ae877103b450bbf443546f420998f334f2f6be9c3705ec3adaff815b181\",\"dweb:/ipfs/QmdY3w54TM8cEQ4My4S7U2AHd5wuMNNePoCNtFgZi2Xb2J\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.7+commit.6da8b019\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"spreadPremium\",\"type\":\"tuple\"}],\"name\":\"ownerSetSpreadPremium\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"getIsGlobalOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketTokenAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"name\":\"interestSetter\",\"type\":\"address\"}],\"name\":\"ownerSetInterestSetter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountValues\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketPriceOracle\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketInterestSetter\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketSpreadPremium\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getNumMarkets\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"token\",\"type\":\"address\"},{\"name\":\"recipient\",\"type\":\"address\"}],\"name\":\"ownerWithdrawUnsupportedTokens\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"minBorrowedValue\",\"type\":\"tuple\"}],\"name\":\"ownerSetMinBorrowedValue\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"spread\",\"type\":\"tuple\"}],\"name\":\"ownerSetLiquidationSpread\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"earningsRate\",\"type\":\"tuple\"}],\"name\":\"ownerSetEarningsRate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"getIsLocalOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"},{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getAccountPar\",\"outputs\":[{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"value\",\"type\":\"uint128\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"marginPremium\",\"type\":\"tuple\"}],\"name\":\"ownerSetMarginPremium\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getMarginRatio\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketCurrentIndex\",\"outputs\":[{\"components\":[{\"name\":\"borrow\",\"type\":\"uint96\"},{\"name\":\"supply\",\"type\":\"uint96\"},{\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketIsClosing\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRiskParams\",\"outputs\":[{\"components\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"marginRatio\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"liquidationSpread\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"earningsRate\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"minBorrowedValue\",\"type\":\"tuple\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountBalances\",\"outputs\":[{\"name\":\"\",\"type\":\"address[]\"},{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"value\",\"type\":\"uint128\"}],\"name\":\"\",\"type\":\"tuple[]\"},{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getMinBorrowedValue\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"operator\",\"type\":\"address\"},{\"name\":\"trusted\",\"type\":\"bool\"}],\"name\":\"args\",\"type\":\"tuple[]\"}],\"name\":\"setOperators\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketPrice\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"name\":\"recipient\",\"type\":\"address\"}],\"name\":\"ownerWithdrawExcessTokens\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"token\",\"type\":\"address\"},{\"name\":\"priceOracle\",\"type\":\"address\"},{\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"spreadPremium\",\"type\":\"tuple\"}],\"name\":\"ownerAddMarket\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"accounts\",\"type\":\"tuple[]\"},{\"components\":[{\"name\":\"actionType\",\"type\":\"uint8\"},{\"name\":\"accountId\",\"type\":\"uint256\"},{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"denomination\",\"type\":\"uint8\"},{\"name\":\"ref\",\"type\":\"uint8\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"amount\",\"type\":\"tuple\"},{\"name\":\"primaryMarketId\",\"type\":\"uint256\"},{\"name\":\"secondaryMarketId\",\"type\":\"uint256\"},{\"name\":\"otherAddress\",\"type\":\"address\"},{\"name\":\"otherAccountId\",\"type\":\"uint256\"},{\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"actions\",\"type\":\"tuple[]\"}],\"name\":\"operate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketWithInfo\",\"outputs\":[{\"components\":[{\"name\":\"token\",\"type\":\"address\"},{\"components\":[{\"name\":\"borrow\",\"type\":\"uint128\"},{\"name\":\"supply\",\"type\":\"uint128\"}],\"name\":\"totalPar\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"borrow\",\"type\":\"uint96\"},{\"name\":\"supply\",\"type\":\"uint96\"},{\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"name\":\"index\",\"type\":\"tuple\"},{\"name\":\"priceOracle\",\"type\":\"address\"},{\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"spreadPremium\",\"type\":\"tuple\"},{\"name\":\"isClosing\",\"type\":\"bool\"}],\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"borrow\",\"type\":\"uint96\"},{\"name\":\"supply\",\"type\":\"uint96\"},{\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"ratio\",\"type\":\"tuple\"}],\"name\":\"ownerSetMarginRatio\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getLiquidationSpread\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"},{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getAccountWei\",\"outputs\":[{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketTotalPar\",\"outputs\":[{\"components\":[{\"name\":\"borrow\",\"type\":\"uint128\"},{\"name\":\"supply\",\"type\":\"uint128\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"heldMarketId\",\"type\":\"uint256\"},{\"name\":\"owedMarketId\",\"type\":\"uint256\"}],\"name\":\"getLiquidationSpreadForPair\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getNumExcessTokens\",\"outputs\":[{\"components\":[{\"name\":\"sign\",\"type\":\"bool\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketCachedIndex\",\"outputs\":[{\"components\":[{\"name\":\"borrow\",\"type\":\"uint96\"},{\"name\":\"supply\",\"type\":\"uint96\"},{\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAccountStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getEarningsRate\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"name\":\"priceOracle\",\"type\":\"address\"}],\"name\":\"ownerSetPriceOracle\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRiskLimits\",\"outputs\":[{\"components\":[{\"name\":\"marginRatioMax\",\"type\":\"uint64\"},{\"name\":\"liquidationSpreadMax\",\"type\":\"uint64\"},{\"name\":\"earningsRateMax\",\"type\":\"uint64\"},{\"name\":\"marginPremiumMax\",\"type\":\"uint64\"},{\"name\":\"spreadPremiumMax\",\"type\":\"uint64\"},{\"name\":\"minBorrowedValueMax\",\"type\":\"uint128\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarket\",\"outputs\":[{\"components\":[{\"name\":\"token\",\"type\":\"address\"},{\"components\":[{\"name\":\"borrow\",\"type\":\"uint128\"},{\"name\":\"supply\",\"type\":\"uint128\"}],\"name\":\"totalPar\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"borrow\",\"type\":\"uint96\"},{\"name\":\"supply\",\"type\":\"uint96\"},{\"name\":\"lastUpdate\",\"type\":\"uint32\"}],\"name\":\"index\",\"type\":\"tuple\"},{\"name\":\"priceOracle\",\"type\":\"address\"},{\"name\":\"interestSetter\",\"type\":\"address\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"marginPremium\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"spreadPremium\",\"type\":\"tuple\"},{\"name\":\"isClosing\",\"type\":\"bool\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"},{\"name\":\"isClosing\",\"type\":\"bool\"}],\"name\":\"ownerSetIsClosing\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"operator\",\"type\":\"address\"},{\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ownerSetGlobalOperator\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"components\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"number\",\"type\":\"uint256\"}],\"name\":\"account\",\"type\":\"tuple\"}],\"name\":\"getAdjustedAccountValues\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"},{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketMarginPremium\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"marketId\",\"type\":\"uint256\"}],\"name\":\"getMarketInterestRate\",\"outputs\":[{\"components\":[{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"\",\"type\":\"tuple\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@studydefi/money-legos/dydx/contracts/ISoloMargin.sol\":\"ISoloMargin\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@studydefi/money-legos/dydx/contracts/ISoloMargin.sol\":{\"keccak256\":\"0xfcc0cd7be9dded596cd0d13873bd360743d823ec5e2a204992bd866385b8a6bf\",\"urls\":[\"bzzr://c6b2500dbdf9d1b12e85455b6974809174601c728f006242207b27eac2e808b0\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
@@ -16839,11 +16627,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+    "version": "0.5.7+commit.6da8b019.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.2.2",
-  "updatedAt": "2020-07-20T23:18:26.461Z",
+  "updatedAt": "2020-07-24T18:07:33.256Z",
   "devdoc": {
     "methods": {}
   },

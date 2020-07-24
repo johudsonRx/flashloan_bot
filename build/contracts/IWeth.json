@@ -44,15 +44,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.7+commit.6da8b019\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"wad\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/User/Desktop/eattheblocks/profitable-flashloans/29-make-arbitrage-script-run-247/contracts/IWeth.sol\":\"IWeth\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/User/Desktop/eattheblocks/profitable-flashloans/29-make-arbitrage-script-run-247/contracts/IWeth.sol\":{\"keccak256\":\"0x7856e5b06e9a67fac37d6775d6c09b996b26934bec623e7322b718f4e9441aa2\",\"urls\":[\"bzzr://c507afb73e5cae7f5a16f613663c5175847b73c0f092564b3ff070fcc09a6187\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.7+commit.6da8b019\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"wad\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/User/Desktop/flashloan_bot/contracts/IWeth.sol\":\"IWeth\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/User/Desktop/flashloan_bot/contracts/IWeth.sol\":{\"keccak256\":\"0x7856e5b06e9a67fac37d6775d6c09b996b26934bec623e7322b718f4e9441aa2\",\"urls\":[\"bzzr://c507afb73e5cae7f5a16f613663c5175847b73c0f092564b3ff070fcc09a6187\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "\n// Copyright (C) 2015, 2016, 2017, 2019 Dapphub\n\n// This program is free software: you can redistribute it and/or modify\n// it under the terms of the GNU General Public License as published by\n// the Free Software Foundation, either version 3 of the License, or\n// (at your option) any later version.\n\n// This program is distributed in the hope that it will be useful,\n// but WITHOUT ANY WARRANTY; without even the implied warranty of\n// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n// GNU General Public License for more details.\n\n// You should have received a copy of the GNU General Public License\n// along with this program.  If not, see <http://www.gnu.org/licenses/>.\n\npragma solidity ^0.5.0;\n\ninterface IWeth {\n    function deposit() external payable;\n    function withdraw(uint wad) external;\n    function balanceOf(address owner) external view returns(uint);\n}\n",
-  "sourcePath": "C:\\Users\\User\\Desktop\\eattheblocks\\profitable-flashloans\\29-make-arbitrage-script-run-247\\contracts\\IWeth.sol",
+  "sourcePath": "C:\\Users\\User\\Desktop\\flashloan_bot\\contracts\\IWeth.sol",
   "ast": {
-    "absolutePath": "/C/Users/User/Desktop/eattheblocks/profitable-flashloans/29-make-arbitrage-script-run-247/contracts/IWeth.sol",
+    "absolutePath": "/C/Users/User/Desktop/flashloan_bot/contracts/IWeth.sol",
     "exportedSymbols": {
       "IWeth": [
         858
@@ -256,7 +256,7 @@
     "src": "693:195:3"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/User/Desktop/eattheblocks/profitable-flashloans/29-make-arbitrage-script-run-247/contracts/IWeth.sol",
+    "absolutePath": "/C/Users/User/Desktop/flashloan_bot/contracts/IWeth.sol",
     "exportedSymbols": {
       "IWeth": [
         858
@@ -465,7 +465,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.2",
-  "updatedAt": "2020-07-24T15:47:47.525Z",
+  "updatedAt": "2020-07-24T18:07:33.171Z",
   "devdoc": {
     "methods": {}
   },
