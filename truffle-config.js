@@ -76,7 +76,7 @@ module.exports = {
     ropsten: {
       provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, process.env.INFURA_URL),
       network_id: 1,
-      gas: 500000,
+      gas: 200000,
       from: "0x5EEE4C61d5e63486dcD3EB4Ad445403C9e1bb413",
     gasPrice: 851030824139, // 5 Gwei
     skipDryRun: true
