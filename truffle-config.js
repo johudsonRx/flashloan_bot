@@ -61,26 +61,26 @@ module.exports = {
     // },
     
 
-    mainnet: {
-      provider: () => new HDWalletProvider(
-        process.env.PRIVATE_KEY, 
-        process.env.INFURA_URL
-      ),
-      network_id: 1,       //mainnet 
-      networkCheckTimeout: 1000,
-      gasPrice: 50000000000, 
-      confirmations: 2,
-      from: '0x5EEE4C61d5e63486dcD3EB4Ad445403C9e1bb413' 
-    },
+    // mainnet: {
+    //   provider: () => new HDWalletProvider(
+    //     process.env.PRIVATE_KEY, 
+    //     process.env.INFURA_URL
+    //   ),
+    //   // network_id: 1,       //mainnet 
+    //   networkCheckTimeout: 1000,
+    //   gasPrice: 50000000000, 
+    //   confirmations: 2,
+    //   from: '0x5EEE4C61d5e63486dcD3EB4Ad445403C9e1bb413' 
+    // },
 
     ropsten: {
-      provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, process.env.INFURA_URL),
-      network_id: 1,
+      provider: () => new HDWalletProvider(process.env.ROPSTEN_PRIVATE_KEY, process.env.INFURA_URL),
+      network_id: 3,
       gas: 200000,
-      from: "0x5EEE4C61d5e63486dcD3EB4Ad445403C9e1bb413",
+      from: "0xAd233e6D24BB0b79092050f3e1567B4601792084",
     gasPrice: 151030824139, // 5 Gwei
     skipDryRun: true
-    },
+    }
 
     // Useful for private networks
     // private: {
