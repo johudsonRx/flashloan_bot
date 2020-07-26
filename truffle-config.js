@@ -78,7 +78,7 @@ module.exports = {
       network_id: 1,
       gas: 200000,
       from: "0x5EEE4C61d5e63486dcD3EB4Ad445403C9e1bb413",
-    gasPrice: 851030824139, // 5 Gwei
+    gasPrice: 151030824139, // 5 Gwei
     skipDryRun: true
     },
 
