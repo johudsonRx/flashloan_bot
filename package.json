@@ -15,7 +15,7 @@
     "@uniswap/sdk": "^2.0.5",
     "dotenv": "^8.2.0",
     "solc": "^0.6.12",
-    "truffle": "^5.1.35",
+    "truffle": "^5.7.1",
     "web3": "^1.2.11"
   },
   "engines": {
